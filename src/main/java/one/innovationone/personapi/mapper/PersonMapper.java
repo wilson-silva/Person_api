@@ -4,7 +4,6 @@ import one.innovationone.personapi.dto.request.PersonDTO;
 import one.innovationone.personapi.entity.Person;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
-import org.mapstruct.Mappings;
 import org.mapstruct.factory.Mappers;
 
 
