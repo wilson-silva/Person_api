@@ -35,7 +35,8 @@ public class Person {
     private String cpf;
 
 
-    private String birthDate;
+    private LocalDate birthDate;
+    //private String birthDate;
 
 
    @OneToMany(fetch =  FetchType.LAZY, cascade = {CascadeType.PERSIST,CascadeType.MERGE, CascadeType.REMOVE })
